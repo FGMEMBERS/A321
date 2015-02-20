@@ -1,0 +1,23 @@
+<!--
+The OMEGA Hangar's A321 Extra panels made by the omega hangar
+-->
+
+<PropertyList>
+
+ <path>center-panel.ac</path>
+
+<!-- Illumination -->
+
+	<animation>
+		<name>Text illumination</name>
+		<type>material</type>
+		<object-name>Text</object-name>
+		<emission>
+			<red>1</red>
+			<green>1</green>
+			<blue>1</blue>
+			<factor-prop>controls/lighting/logo-lights</factor-prop>
+		</emission>
+	</animation>
+
+</PropertyList>

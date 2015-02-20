@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+    <model>
+        <livery>
+            <name type="string">Airbus A321 House</name>
+            <texture>HOUSE.png</texture>
+        </livery>
+    </model>
+</sim>
+</PropertyList>

@@ -1,0 +1,17 @@
+Airbus A321-200 alpha AUTHORS :
+
+Narendran Muraleedharan (omega-1174) : YASim FDM, 3D model, Animations
+
+Xiang Guo (Reborn) : 3D Model Director, Research, Blueprints
+
+Hafidh Mahasin (INTEL) : Research, Engine Specs
+
+Nicholas Koh (music) : Livery
+
+Other Help / Permissions from :
+
+Liam Gathercole : Sounds, Airport Operations, Announcements, Autopilot
+
+Skyop : 3D cockpit (in progress), base design
+
+Syn Adams, Justin Smithies, Karla and Isaías V. Prestes : Tyre Smoke and Contrails from 777-300 (ER)

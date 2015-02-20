@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+    <model>
+        <livery>
+            <name type="string">Vietnam Airlines</name>
+            <texture>VIA.png</texture>
+        </livery>
+        <lights>
+            <texture>Liveries/light.png</texture>
+        </lights>
+    </model>
+</sim>
+</PropertyList>

@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------------
+                         AUTHORS' NOTE FOR LIVERY EDITORS
+-------------------------------------------------------------------------------------
+
+ - You are free to modify any of the below liveries to make your own
+
+ - We don't have a PAINT KIT but rather a TEMPLATE available in A321/Texture
+
+ - You may use mainly *.png or *.rgb extension only
+
+ - DO NOT CHANGE the USA-321.png Livery as the AC3D reader reads that first. You may
+notice that the USA-321.png livery has some add-ons that the others don't. If you
+remove or make changes to that file, you'll lose some textures.
+
+ - You DO NOT need to COPY or USE the add-ons on the other liveries as those are NOT
+affected by livery change and remain in all aircraft.
+
+ - To change the default livery, replace USA-321.png with your DEFAULT in A321/Models/
+A321.xml.
+
+Have a fice flight aboard the Airbus A321!

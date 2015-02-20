@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+	<path>../../Models/Interior/a321-interior.ac</path>
+
+<!-- Cabin Lights Illumination -->
+
+	<animation>
+		<name>Cabin light illumination Old</name>
+		<type>material</type>
+                <object-name>Cabin</object-name>
+		<emission>
+			<red>0.45</red>
+			<green>0.45</green>
+			<blue>0.45</blue>
+			<factor-prop>controls/lighting/cabin1-lights</factor-prop>
+		</emission>
+	</animation> 
+
+	<animation>
+		<name>Cabin light illumination Old</name>
+		<type>material</type>
+                <object-name>OverheadBins</object-name>
+                <object-name>Floor</object-name>
+                <object-name>SeatFabric</object-name>
+                <object-name>Seats</object-name>
+                <object-name>CabinDiv1</object-name>
+                <object-name>CabinDiv2</object-name>
+                <object-name>CabinDiv3</object-name>
+		<emission>
+			<red>0.25</red>
+			<green>0.25</green>
+			<blue>0.25</blue>
+			<factor-prop>controls/lighting/cabin1-lights</factor-prop>
+		</emission>
+	</animation> 
+</PropertyList>

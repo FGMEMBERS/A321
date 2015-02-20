@@ -1,0 +1,526 @@
+AC3Db
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.2 0.2 0.2  shi 128  trans 0
+MATERIAL "GlassCockpit" rgb 0.8 0.8 0.8  amb 0.5 0.5 0.5  emis 1 1 1  spec 1 1 1  shi 32  trans 0
+OBJECT world
+kids 19
+OBJECT group
+name "PanelMarkings"
+loc 9.99998e-05 0.0213683 -0.000397466
+kids 1
+OBJECT poly
+name "PanelMarkings_0"
+data 9
+Plane.424
+crease 30.000000
+numvert 4
+0 -0.00370262 -0.0197897
+0 -0.0040717 -0.0194259
+0 -0.000344973 -0.0142087
+0 2.41064e-05 -0.0145724
+numsurf 1
+SURF 0x0
+mat 1
+refs 4
+0 0 0
+3 1 0
+2 1 1
+1 0 1
+kids 0
+OBJECT group
+name "PanelMarkings"
+loc 9.99998e-05 0.00519487 -0.00873116
+kids 1
+OBJECT poly
+name "PanelMarkings_0"
+data 9
+Plane.424
+crease 30.000000
+numvert 4
+0 0.0123601 -0.00124187
+0 0.0120195 -0.00164206
+0 0.0161191 -0.00645789
+0 0.0164598 -0.00605769
+numsurf 1
+SURF 0x0
+mat 1
+refs 4
+3 0 0
+0 1 0
+1 1 1
+2 0 1
+kids 0
+OBJECT group
+name "PanelMarkings"
+loc 9.99998e-05 0.0107185 -0.00627226
+kids 1
+OBJECT poly
+name "PanelMarkings_0"
+data 9
+Plane.424
+crease 30.000000
+numvert 4
+0 0.00694714 -0.00612713
+0 0.00646534 -0.00612713
+0 0.00646534 -0.00358376
+0 0.00694714 -0.00358376
+numsurf 1
+SURF 0x0
+mat 1
+refs 4
+0 0 0
+3 1 0
+2 1 1
+1 0 1
+kids 0
+OBJECT group
+name "PanelMarkings"
+loc 9.99998e-05 0.0107185 -0.0140884
+kids 1
+OBJECT poly
+name "PanelMarkings_0"
+data 9
+Plane.424
+crease 30.000000
+numvert 4
+0 0.00694714 -0.00358376
+0 0.00646534 -0.00358376
+0 0.00646534 -0.00612713
+0 0.00694714 -0.00612713
+numsurf 1
+SURF 0x0
+mat 1
+refs 4
+3 0 0
+0 1 0
+1 1 1
+2 0 1
+kids 0
+OBJECT group
+name "PanelMarkings"
+loc 9.99998e-05 -0.00555663 -0.00477204
+kids 1
+OBJECT poly
+name "PanelMarkings_0"
+data 9
+Plane.424
+crease 30.000000
+numvert 4
+0 0.00694714 -0.0129641
+0 0.00646534 -0.0129641
+0 0.00646534 -0.00758268
+0 0.00694714 -0.00758268
+numsurf 1
+SURF 0x0
+mat 1
+refs 4
+0 0 0
+3 1 0
+2 1 1
+1 0 1
+kids 0
+OBJECT group
+name "PanelMarkings"
+loc 9.99998e-05 -0.0222985 -0.0203445
+kids 1
+OBJECT poly
+name "PanelMarkings_0"
+data 9
+Plane.424
+crease 30.000000
+numvert 4
+0 0.0234446 0.00816079
+0 0.0234446 0.00759482
+0 0.0400832 0.00759482
+0 0.0400832 0.00816078
+numsurf 1
+SURF 0x0
+mat 1
+refs 4
+3 0 0
+0 1 0
+1 1 1
+2 0 1
+kids 0
+OBJECT group
+name "PanelMarkings"
+loc 9.99998e-05 -0.0222816 -0.0256184
+kids 1
+OBJECT poly
+name "PanelMarkings_0"
+data 9
+Plane.424
+crease 30.000000
+numvert 4
+0 0.0400664 0.00816079
+0 0.0400664 0.00759482
+0 0.0234348 0.00759482
+0 0.0234348 0.00816079
+numsurf 1
+SURF 0x0
+mat 1
+refs 4
+0 0 0
+3 1 0
+2 1 1
+1 0 1
+kids 0
+OBJECT group
+name "PanelMarkings"
+loc 9.99998e-05 -0.0273751 -0.0299833
+kids 1
+OBJECT poly
+name "PanelMarkings_0"
+data 9
+Plane.424
+crease 30.000000
+numvert 4
+0 -2.41064e-05 0.0145724
+0 0.000344969 0.0142087
+0 0.0040717 0.0194259
+0 0.00370262 0.0197897
+numsurf 1
+SURF 0x0
+mat 1
+refs 4
+3 0 0
+0 1 0
+1 1 1
+2 0 1
+kids 0
+OBJECT group
+name "PanelMarkings"
+loc 9.99998e-05 -0.0112017 -0.0216497
+kids 1
+OBJECT poly
+name "PanelMarkings_0"
+data 9
+Plane.424
+crease 30.000000
+numvert 4
+0 -0.0164598 0.00605769
+0 -0.0161191 0.00645789
+0 -0.0120195 0.00164206
+0 -0.0123601 0.00124186
+numsurf 1
+SURF 0x0
+mat 1
+refs 4
+0 0 0
+3 1 0
+2 1 1
+1 0 1
+kids 0
+OBJECT group
+name "PanelMarkings"
+loc 9.99998e-05 -0.0167253 -0.0241085
+kids 1
+OBJECT poly
+name "PanelMarkings_0"
+data 9
+Plane.424
+crease 30.000000
+numvert 4
+0 -0.00694714 0.00358376
+0 -0.00646534 0.00358376
+0 -0.00646534 0.00612713
+0 -0.00694714 0.00612713
+numsurf 1
+SURF 0x0
+mat 1
+refs 4
+3 0 0
+0 1 0
+1 1 1
+2 0 1
+kids 0
+OBJECT group
+name "PanelMarkings"
+loc 9.99998e-05 -0.0167253 -0.0162923
+kids 1
+OBJECT poly
+name "PanelMarkings_0"
+data 9
+Plane.424
+crease 30.000000
+numvert 4
+0 -0.00694714 0.00612713
+0 -0.00646534 0.00612713
+0 -0.00646534 0.00358376
+0 -0.00694714 0.00358376
+numsurf 1
+SURF 0x0
+mat 1
+refs 4
+0 0 0
+3 1 0
+2 1 1
+1 0 1
+kids 0
+OBJECT group
+name "PanelMarkings"
+loc 9.99998e-05 0.00282763 -0.0256087
+kids 1
+OBJECT poly
+name "PanelMarkings_0"
+data 9
+Plane.424
+crease 30.000000
+numvert 4
+0 -0.00694714 0.00758268
+0 -0.00646534 0.00758268
+0 -0.00646534 0.0129641
+0 -0.00694714 0.0129641
+numsurf 1
+SURF 0x0
+mat 1
+refs 4
+3 0 0
+0 1 0
+1 1 1
+2 0 1
+kids 0
+OBJECT group
+name "PanelMarkings"
+loc 9.99998e-05 0.024652 -0.0100363
+kids 1
+OBJECT poly
+name "PanelMarkings_0"
+data 9
+Plane.424
+crease 30.000000
+numvert 4
+0 -0.0484436 -0.00816079
+0 -0.0484436 -0.00759482
+0 -0.0283346 -0.00759482
+0 -0.0283346 -0.00816079
+numsurf 1
+SURF 0x0
+mat 1
+refs 4
+0 0 0
+3 1 0
+2 1 1
+1 0 1
+kids 0
+OBJECT poly
+name "AltPressure"
+loc 0 0.0949663 0.0549892
+data 9
+Plane.443
+crease 30.000000
+kids 0
+OBJECT group
+name "PanelMarkings"
+loc 9.99998e-05 0.024652 -0.00476244
+kids 1
+OBJECT poly
+name "PanelMarkings_0"
+data 9
+Plane.424
+crease 30.000000
+numvert 4
+0 -0.0283346 -0.00816079
+0 -0.0283346 -0.00759482
+0 -0.0484436 -0.00759482
+0 -0.0484436 -0.00816079
+numsurf 1
+SURF 0x0
+mat 1
+refs 4
+3 0 0
+0 1 0
+1 1 1
+2 0 1
+kids 0
+OBJECT poly
+name "poly"
+loc -0.000671994 -0.0145248 -0.0511671
+texture "MCP.png"
+crease 45.000000
+numvert 8
+0 -0.0178348 0.0616943
+0 -0.0260957 0.0541025
+-2.70805e-06 -0.0260324 0.035255
+-2.70805e-06 -0.0177692 0.0275339
+0.000738025 -0.0179821 0.0615768
+0.000738025 -0.0262429 0.053985
+0.000735317 -0.0261796 0.0351376
+0.000735317 -0.0179164 0.0274164
+numsurf 5
+SURF 0x30
+mat 0
+refs 4
+0 0 0
+1 0 0
+5 0 0
+4 0 0
+SURF 0x30
+mat 0
+refs 4
+1 0 0
+2 0 0
+6 0 0
+5 0 0
+SURF 0x30
+mat 0
+refs 4
+2 0 0
+3 0 0
+7 0 0
+6 0 0
+SURF 0x30
+mat 0
+refs 4
+3 0 0
+0 0 0
+4 0 0
+7 0 0
+SURF 0x30
+mat 0
+refs 4
+4 0.681641 0.581613
+5 0.701908 0.774563
+6 0.756866 0.773084
+7 0.78125 0.580078
+kids 0
+OBJECT poly
+name "AltPressure"
+loc 0 0.0937254 0
+data 9
+Plane.443
+crease 30.000000
+kids 0
+OBJECT poly
+name "rect"
+loc 0 -0.0013289 -0.00719885
+texture "MCP.png"
+crease 45.000000
+numvert 12
+-0.000150778 -0.0309747 -0.0164516
+-0.000150778 -0.0309747 0.0180185
+-0.000150778 0.0253925 0.0180185
+-0.000150778 0.0253925 -0.0164516
+-0.00090297 -0.0310831 -0.0165691
+-0.00090297 -0.0310831 0.017901
+-0.00090297 0.0252841 0.017901
+-0.00090297 0.0252841 -0.0165691
+0 -0.0311916 -0.0166866
+0 -0.0311916 0.0177835
+0 0.0251756 0.0177835
+0 0.0251756 -0.0166866
+numsurf 9
+SURF 0x30
+mat 0
+refs 4
+3 0.585938 0.919922
+2 0.830078 0.919922
+1 0.830078 0.574219
+0 0.585938 0.574219
+SURF 0x30
+mat 0
+refs 4
+4 0 0
+7 0 0
+3 0 0
+0 0 0
+SURF 0x30
+mat 0
+refs 4
+5 0 0
+4 0 0
+0 0 0
+1 0 0
+SURF 0x30
+mat 0
+refs 4
+6 0 0
+5 0 0
+1 0 0
+2 0 0
+SURF 0x30
+mat 0
+refs 4
+7 0 0
+6 0 0
+2 0 0
+3 0 0
+SURF 0x30
+mat 0
+refs 4
+8 0 0
+11 0 0
+7 0 0
+4 0 0
+SURF 0x30
+mat 0
+refs 4
+9 0 0
+8 0 0
+4 0 0
+5 0 0
+SURF 0x30
+mat 0
+refs 4
+10 0 0
+9 0 0
+5 0 0
+6 0 0
+SURF 0x30
+mat 0
+refs 4
+11 0 0
+10 0 0
+6 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "poly"
+loc -0.000671994 0.00673461 0.038204
+texture "MCP.png"
+crease 45.000000
+numvert 8
+0.000735317 0.0174705 -0.0274164
+0.000735317 0.0255281 -0.0351376
+0.000738025 0.0255899 -0.053985
+0.000738025 0.0175346 -0.0615768
+-2.70805e-06 0.017327 -0.0275339
+-2.70805e-06 0.0253846 -0.035255
+0 0.0254463 -0.0541025
+0 0.017391 -0.0616943
+numsurf 5
+SURF 0x30
+mat 0
+refs 4
+3 0.681641 0.581613
+2 0.701908 0.774563
+1 0.756866 0.773084
+0 0.78125 0.580078
+SURF 0x30
+mat 0
+refs 4
+4 0 0
+7 0 0
+3 0 0
+0 0 0
+SURF 0x30
+mat 0
+refs 4
+5 0 0
+4 0 0
+0 0 0
+1 0 0
+SURF 0x30
+mat 0
+refs 4
+6 0 0
+5 0 0
+1 0 0
+2 0 0
+SURF 0x30
+mat 0
+refs 4
+7 0 0
+6 0 0
+2 0 0
+3 0 0
+kids 0

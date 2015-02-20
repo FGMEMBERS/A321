@@ -1,0 +1,410 @@
+<?xml version="1.0"?>
+<PropertyList>
+ <sim>
+	<description>Airbus A321-231 with V2500-A5 Engines</description>
+	<author>Narendran Muraleedharan (3D,FDM), Xiang Guo (3D,Research), Hafidh Mahasin (Research), Nicholar Koh (Livery), Skyop (Cockpit, Cabin, Lights), Syd Adams (Tyre Smoke), Xsaint (Engine Fire), Liam (Airport Operations, Sound)</author>
+        <status>early-production</status>
+        <aircraft-version>5.2</aircraft-version>
+        <flight-model>yasim</flight-model>
+        <fuel-fraction>0.75</fuel-fraction>
+        <aero>A321</aero>
+		
+	<startup>
+            <splash-texture>Aircraft/A321/splash2.png</splash-texture>
+        </startup>
+
+		<panel>
+			<path>Aircraft/A321/Models/2Dpanel/ifr-panel.xml</path>
+			<visibility>false</visibility>
+		</panel>
+
+        <model>
+            <path>Aircraft/A321/Models/A321-231.xml</path>
+            <livery>
+               <file type="string">USA</file>
+            </livery> 
+            <lights>
+                <file type="string">USA</file>
+            </lights>
+        </model>
+
+<view n="0">
+            <name>Pilot View</name>
+            <type>lookfrom</type>
+            <internal type="bool">true</internal>
+            <config>
+                <x-offset-m type="double">-0.5</x-offset-m>
+                <y-offset-m type="double">-0.63</y-offset-m>
+                <z-offset-m type="double">-19.8</z-offset-m>
+                <pitch-offset-deg>-13.5</pitch-offset-deg>
+                <limits>
+                    <enabled type="bool">true</enabled> 
+                </limits>
+<default-field-of-view-deg type="double">55.0</default-field-of-view-deg>
+            </config>
+        </view>
+
+		<view n="101">
+			<name>Passenger View</name>
+			<type>lookfrom</type>
+			<internal archive="y">true</internal>
+			<config>
+				<from-model type="bool">true</from-model>
+				<x-offset-m archive="y">-1.4</x-offset-m>
+				<y-offset-m archive="y">-0.3</y-offset-m>
+				<z-offset-m archive="y">-1.5</z-offset-m>
+				<pitch-offset-deg archive="y">0</pitch-offset-deg>
+			</config>
+		</view>
+
+<view n="100">
+    <name>Wing View</name>
+    <type>lookfrom</type>
+    <internal archive="y">false</internal>
+    <config>
+      <from-model type="bool">true</from-model>
+      <from-model-idx type="int">0</from-model-idx>
+      <ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
+      <default-field-of-view-deg type="double">55</default-field-of-view-deg>
+      <pitch-offset-deg>-8.0</pitch-offset-deg>
+      <heading-offset-deg type="double">90</heading-offset-deg> <!-- parallel to the panel -->
+      <x-offset-m archive="y"> -2.65 </x-offset-m> <!--Left/Right-->
+      <y-offset-m archive="y"> 0.66 </y-offset-m> <!--Up/Down-->
+      <z-offset-m archive="y"> 0.00 </z-offset-m> <!--Fdw/Back-->
+    </config>
+  </view>
+
+		<view n="102">
+			<name>Walk View</name>
+			<type>lookfrom</type>
+			<internal archive="y">true</internal>
+			<config>
+				<from-model type="bool">true</from-model>
+				<x-offset-m archive="y">0</x-offset-m>
+				<y-offset-m archive="y">0</y-offset-m>
+				<z-offset-m archive="y">-2</z-offset-m>
+				<pitch-offset-deg archive="y">0</pitch-offset-deg>
+			</config>
+		</view>
+
+
+   <airport>
+        <runways>
+            <start-offset-m>25</start-offset-m>
+        </runways>
+    </airport>
+
+        <chase-distance-m>-80</chase-distance-m>
+		
+        <sound>
+            <path>Aircraft/A321/Sounds/A321-sound.xml</path>
+            <switch type = "bool">0</switch>
+  <Evolume>1</Evolume>
+        </sound>
+		
+
+		
+		<!-- Ajuste dos flaps -->
+				<flaps>
+					<setting>0.000</setting>
+					<setting>0.125</setting>
+					<setting>0.250</setting>
+					<setting>0.375</setting>
+					<setting>0.500</setting>
+					<setting>0.625</setting>
+					<setting>0.750</setting>
+					<setting>0.875</setting>
+					<setting>1.000</setting>
+				</flaps>
+
+<!-- O menu de ajuda dessa aeronave -->
+		        <help>
+            <title>Airbus A321</title>
+            <key>
+                <name>w/W</name>
+                <desc>Walk forwards/backwards (on interior views only)</desc>
+            </key>
+            <key>
+                <name>Delete</name>
+                <desc>toggle thrust reversers</desc>
+            </key>
+            <key>
+                <name>g/G</name>
+                <desc>raise/lower landing gear</desc>
+            </key>
+            <key>
+                <name>B (shift and b)</name>
+                <desc>toggle parking brakes</desc>
+            </key>
+            <key>
+                <name>pgup/pgdn</name>
+                <desc>throttle increase/decrease</desc>
+            </key>
+            <key>
+                <name>[/]</name>
+                <desc>raise/lower flaps</desc>
+            </key>
+            <key>
+                <name>Ctrl-b</name>
+                <desc>toggle speed brakes</desc>
+            </key>
+            <key>
+                <name>s</name>
+                <desc>hold to start engines</desc>
+            </key>
+            <text>
+TAKE-OFF PROCEDURE / SETTINGS :
+- Start up the Aircraft Engines using A321 > Autostart
+- Put Flaps to 1 notch if you're flying lighter than 140 lbs and 2 if you're heavier than 140.
+- Release Parking brakes and apply full throttle
+- Pull up at about 130 - 160 knots
+- Climb at a steady rate (2000 fps) to your cruise altitude
+- Power down to 60 - 75 % throttle.
+
+LANDING PROCEDURE / SETTINGS :
+- Start and maintain descent at about -2000 - -3000 fps by reducing throttle and apply 3 notches of flaps
+- When you slow down to about 170 knots apply 2 more notches of flaps and "slightly" increase power.
+- At about 2000 ft, apply full flaps, gear down and use throttle and pitch to maintain 140 - 150 knots
+- Flair at about 50 ft and reduce throttle
+- Engage Thrust Reversers (DEL) and apply spoilers (CTRL+B)
+
+IMPORTANT SPEEDS AND DATA :
+- Take-off Speed = 150 knots
+- Approach Speed = 145 knots
+- Cruise Speed = 488 knots
+- Service Ceiling = 39800 ft
+- Taxi Speed = 20 - 30 knots 
+
+NOTE - Turning on the ground faster than 30 knots may cause the aircraft to crash.
+            </text>
+        </help>
+
+        <menubar>
+            <default>
+   <menu n="100">
+   <item n="10">
+    <label>Pushback</label>
+    <name>pushback</name>
+    <binding>
+     <command>dialog-show</command>
+     <dialog-name>pushback</dialog-name>
+    </binding>
+   </item>
+<item>
+						<name>lighting</name>
+						<label>Aircraft Lights</label>
+						<binding>
+							<command>nasal</command>
+							<script>
+							 var lights = gui.Dialog.new("sim/gui/dialogs/lights/dialog", "Aircraft/A321/Systems/lights.xml");
+							 lights.open();
+							</script>
+						</binding>
+					</item>
+<item>
+						<name>engine-failure</name>
+						<label>Engine Failures</label>
+						<binding>
+							<command>nasal</command>
+							<script>
+							 var lights = gui.Dialog.new("sim/gui/dialogs/lights/dialog", "Aircraft/A321/Systems/failures.xml");
+							 lights.open();
+							</script>
+						</binding>
+					</item>
+  </menu>
+                <menu n="100">
+                    <label>A321</label>
+                    <enabled type="bool">true</enabled>
+                    <item>
+                        <label>Autostart</label>
+                        <binding>
+                            <command>property-toggle</command>
+                            <property>sim/model/start-idling</property>
+                        </binding>
+                    </item>
+                   <item>
+    <label>Select Livery</label>
+    <binding>
+     <command>nasal</command>
+     <script>aircraft.livery.dialog.toggle()</script>
+    </binding>
+   </item>
+<item>
+      <label>Airport Operations</label>
+      <binding>
+       <command>nasal</command>
+       <script>
+	  var mal = gui.Dialog.new("/sim/gui/dialogs/Boeing747/menu/dialog", 
+                                                              "Aircraft/A321/Dialogs/airportoperations-dialog.xml");
+        mal.open();
+       </script>
+      </binding>
+     </item>
+
+<item>
+      <label>Announcements</label>
+      <binding>
+       <command>nasal</command>
+       <script>
+	  var mal = gui.Dialog.new("/sim/gui/dialogs/Boeing747/menu/dialog", 
+                                                              "Aircraft/A321/Dialogs/announcements-dialog.xml");
+        mal.open();
+       </script>
+      </binding>
+     </item>
+
+</menu>
+            </default>
+        </menubar>
+
+
+
+
+<systems>
+        <path>Aircraft/A321/Systems/systems.xml</path>
+            <autopilot>
+                <path>Aircraft/A321/Systems/A321-autopilot.xml</path>
+            </autopilot>
+        </systems>
+
+        <instrumentation>
+            <path>Aircraft/A321/instrumentation.xml</path>
+        </instrumentation>
+
+        <hud>
+            <enable3d>false</enable3d>
+        </hud>
+        <virtual-cockpit archive="y">true</virtual-cockpit>
+        <allow-toggle-cockpit>true</allow-toggle-cockpit>
+
+		<systems>
+			<!-- Autopilot A321 -->
+			<autopilot>
+				<path>Aircraft/A321/Systems/A321-autopilot.xml</path>
+			</autopilot>
+        </systems>
+ 
+        <weight n="0">
+            <name>Crew</name>
+            <weight-lb>350</weight-lb> 
+            <max-lb>500</max-lb>
+            <min-lb>350</min-lb>
+        </weight>
+
+        <weight n="1">
+        <!--  325 pax max @ 180 lbs-->
+            <name>Passenger</name>
+            <weight-lb>18000</weight-lb>
+            <max-lb>25500</max-lb>
+            <min-lb>0</min-lb>
+        </weight>
+
+ <weight n="2">
+            <name>Cargo</name>
+            <weight-lb>12500</weight-lb>
+            <max-lb>17500</max-lb>
+            <min-lb>0</min-lb>
+        </weight>
+
+</sim>
+
+ <consumables>
+        <fuel>
+            <tank n="0"><name>LH Main</name></tank>
+            <tank n="1"><name>Center</name></tank>
+            <tank n="2"><name>RH Main</name></tank>
+        </fuel>
+    </consumables>
+
+    <input>
+        <keyboard>
+<key n="119">
+   <name>w</name>
+    <desc>Walk forward toward view</desc>
+    <repeatable>true</repeatable>
+    <binding>
+     <command>nasal</command>
+     <script>walk.walk_about(0.1)</script>
+    </binding>
+  </key>
+  <key n="87">
+   <name>W</name>
+   <desc>Walk backward from view</desc>
+   <repeatable>true</repeatable>
+   <binding>
+    <command>nasal</command>
+    <script>walk.walk_about(-0.1)</script>
+   </binding>
+  </key>  
+<key n="127">
+                <name>Delete</name>
+                <desc>Toggle Reversers</desc>
+                <binding>
+                    <command>property-toggle</command>
+                    <property>controls/engines/engine[0]/reverser</property>
+                </binding>
+                <binding>
+                    <command>property-toggle</command>
+                    <property>controls/engines/engine[1]/reverser</property>
+                </binding>
+            </key>
+        </keyboard>
+    </input>
+
+<instrumentation>
+            <path>Aircraft/A321/Systems/instrumentation.xml</path>
+        </instrumentation>
+
+
+    <controls>
+        <gear>
+            <brake-parking type="bool">1</brake-parking>
+        </gear>
+<lighting>
+  <strobe>1</strobe>
+  <beacon>1</beacon>
+  <landing-lights>1</landing-lights>
+  <nav-lights>1</nav-lights>
+ </lighting>
+    </controls>
+
+    <nasal>
+        <b777>
+            <file>Aircraft/A321/Nasal/Electrical.nas</file>
+            <file>Aircraft/A321/Nasal/flightdirector.nas</file>
+            <file>Aircraft/A321/Nasal/systems.nas</file>
+            <file>Aircraft/A321/Nasal/lighting.nas</file>
+        </b777>
+    <walk>
+    <file>Aircraft/A321/Nasal/walk.nas</file>
+    </walk>
+    <failures>
+    <file>Aircraft/A321/Nasal/Failures.nas</file>
+   </failures>
+   <livery>
+     <file>Aircraft/A321/Nasal/livery.nas</file>
+   </livery>
+   <tyresmoke>
+    <file>Aircraft/A321/Nasal/tyresmoke.nas</file>
+   </tyresmoke>
+</nasal>
+
+<!-- Add-on for Moving jetway compatibility -->
+
+	<aircraft>
+		<jetway-pos>
+			<x-tra>-1.8</x-tra>
+			<y-rot>-2.2</y-rot>
+			<z-rot>23.9</z-rot>
+			<hood-rot>-12</hood-rot>
+		</jetway-pos>
+		<jetway2-pos>
+			<x-tra>3.95</x-tra>
+			<y-rot>-2.2</y-rot>
+			<z-rot>53</z-rot>
+			<hood-rot>-12</hood-rot>
+		</jetway2-pos>
+	</aircraft>
+
+</PropertyList>

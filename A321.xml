@@ -1,0 +1,234 @@
+<!-- Airbus A321-211 YASim FDM by Narendran Muraleedharan
+
+basic -    mass : 84000 lbs
+	
+approach - speed : 135 knots
+           aoa : 3 degrees
+	   fuel : 0.2 (default)
+
+cruise -   speed : 488 knots
+           altitude : 39500 ft
+           fuel : 0.2 (default)
+
+cockpit -  position : (0,0,0) [ORIGIN]
+
+fuselage - front : (4.3,0,0)
+	   back : (35.1,0,0)
+           width : 3.66 m
+
+wings -    base : (27.4,1.82,-0.7)
+	   length : 15.1 m 
+	   chord : 6.9 m
+	   incidence : 2.5 degrees
+	   twist : -1 degree
+	   taper : 0.3
+           sweep : 25 degrees
+           dihedral : 2.5 degrees
+           idrag : 1
+	   camber : 0.1
+
+hstab -    base : (41.1,0.8,0.7)
+	   length : 6 m
+	   chord : 4 m
+	   taper : 0.2
+	   sweep : 25
+	   dihedral : 7
+	   effectiveness : 2.5
+
+vstab -    base : (40.2,0,2.3)
+	   chord : 6.9 m
+	   length : 7.1 m
+	   taper : 0.3
+	   sweep : 33
+
+engine 1 - center : (17.7,-5,-2.3) [THIS IS ALSO THRUST POINT]
+           thrust : 32000 lbs
+           mass : 5250 lbs
+
+engine 2 - center : (17.7,5,-2.3) [THIS IS ALSO THRUST POINT]
+           thrust : 32000 lbs
+           mass : 5250 lbs
+          
+tank 1 -   center : (26.7,0,-0.5)
+           capacity : 9000 lbs
+
+tank 2 -   center : (28.4,-6.7,-0.5)
+           capacity : 22900 lbs
+
+tank 3 -   center : (28.4,6.7,-0.5)
+           capacity : 9000 lbs
+
+OFFSETS USED TO MATCH 3D MODEL - 
+	x : 22.4 m (and change signs)
+	y : 0 m
+	z : 0.7 m
+
+Offset values assume Midpoint of distance from the centers of the Wings' Root Chords to be the origin (0,0,0).
+
+In addition to the offsets, minute changes have been made too to balance the center of gravity.
+
+For Airbus A321-231 and 232, change engine to IAE V2500-A5. Mass - 5200 lbs and Thrust - 31000 lbs -->
+
+<!-- Airplane Empty Weight -->
+<airplane mass="84000">
+
+<!-- Approach configuration -->
+<approach speed="135" aoa="3" fuel="0.7">
+  <control-setting axis="/controls/engines/engine[0]/throttle-lever" value="0.25"/>
+  <control-setting axis="/controls/engines/engine[1]/throttle-lever" value="0.25"/>
+  <control-setting axis="/controls/flight/flaps" value="1"/>
+  <control-setting axis="/surface-positions/flap-pos-norm" value="1"/>
+  <control-setting axis="/controls/gear/gear-down" value="1"/>
+    <solve-weight idx="0" weight="350"/>
+  <solve-weight idx="1" weight="45000"/>
+</approach>
+
+<!-- Cruise configuration -->
+<cruise speed="488" alt="39800" fuel="0.7">
+  <control-setting axis="/controls/engines/engine[0]/throttle-lever" value="0.75"/>
+  <control-setting axis="/controls/engines/engine[1]/throttle-lever" value="0.75"/>
+  <control-setting axis="/controls/flight/flaps" value="0.0"/>
+  <control-setting axis="/controls/gear/gear-down" value="0"/>
+    <solve-weight idx="0" weight="350"/>
+  <solve-weight idx="1" weight="45000"/>
+</cruise>
+
+<!-- Cockpit Configuration -->
+<cockpit x="20.8" y="0.0" z="0.75"/>
+
+<!-- Fuselage Configuration -->
+<fuselage ax="23.4" ay="0" az="-0.64" bx="19.1" by="0.00" bz="0.0"
+          width="3.66" taper="0.0" midpoint="1.0"/>
+<fuselage ax="19.1" ay="0" az="0" bx="-13" by="0.00" bz="0.0"
+          width="3.66" taper="1.0" midpoint="0.5"/>
+<fuselage ax="-13.0" ay="0" az="0" bx="-23.4" by="0.00" bz="1.2"
+          width="3.66" taper="0.0" midpoint="0.0"/>
+
+<!-- Wing Configuration -->
+<wing x="3" y="2.15" z="-1.66" length="16.6" chord="6.9" sweep="23"
+      taper=".3" dihedral="2.5" camber="0.01" incidence="2.5" twist="-1">
+  <stall aoa="15" width="8" peak="1.5"/>
+  <flap0 start="0" end=".45" lift="1.6" drag="1.8"/>
+  <flap1 start=".55" end=".88" lift="1.3" drag="1.1"/>
+  <slat start="0" end="1" aoa="2" drag="1.2"/>
+  <spoiler start="0.2" end="0.6" lift="0.3" drag="3.0"/>
+  <control-input axis="/controls/flight/flaps" control="FLAP0"/>
+  <control-input axis="/surface-positions/flap-pos-norm" control="SLAT"/>
+  <control-output control="FLAP0" prop="/surface-positions/flap-pos-norm"/>
+  <control-output control="FLAP0" prop="/surface-positions/slats"/>
+  <control-speed control="FLAP0" transition-time="10"/>
+
+  <control-input axis="/controls/flight/speedbrake" control="SPOILER"/>
+<control-output control="SPOILER" prop="/surface-positions/speedbrake-norm"/>
+  <control-speed control="SPOILER" transition-time="5"/>
+
+    <control-input axis="/controls/flight/aileron" control="FLAP1" split="true"/>
+  <control-input axis="/controls/flight/aileron-trim" control="FLAP1" split="true"/>
+  <control-output control="FLAP1" side="left"
+		  prop="/surface-positions/left-aileron-pos-norm"/>
+  <control-output control="FLAP1" side="right"
+		  prop="/surface-positions/right-aileron-pos-norm"/>
+</wing>
+
+<!-- Horizontal Stabilizer Configuration -->
+<hstab x="-19.7" y="1.02" z="1.0" chord="4" length="6.5" taper=".30"
+       sweep="25" dihedral="7">
+  <stall aoa="15" width="2" peak="1.5"/>
+  <flap0 start="0" end="1" lift="1.4" drag="1.2"/>
+  <control-input axis="/controls/flight/elevator" control="FLAP0"/>
+  <control-input axis="/controls/flight/elevator-trim" control="FLAP0"/>
+  <control-output control="FLAP0" prop="/surface-positions/elevator-pos-norm"/>
+</hstab>
+
+<!-- Vertical Stabilizer Configuration -->
+<vstab x="-18.8" y="0.00" z="2.7" chord="7.1" length="7.3" taper="0.3"
+       sweep="35" effectiveness="1.5">
+  <stall aoa="15" width="2" peak="1.5"/>
+  <flap0 start="0" end="1" lift="2" drag="1.2"/>
+  <control-input axis="/controls/flight/rudder" control="FLAP0" invert="true"/>
+  <control-input axis="/controls/flight/rudder-trim" control="FLAP0" invert="true"/>
+  <control-output control="FLAP0" prop="/surface-positions/rudder-pos-norm"
+		  min="1" max="-1"/>
+</vstab>
+
+<!-- Right Engine Configuration (CFM56-5B) -->
+<jet x="5" y="6.19"  z="-3.995" mass="5250" thrust="32000" spool-time="3"
+egt="950" tsfc="0.576" n1-idle="45" n1-max="105" n2-idle="70" n2-max="108">
+  <control-input axis="/controls/engines/engine[0]/throttle-lever" control="THROTTLE"/>
+  <control-input axis="/controls/engines/engine[0]/mixture" control="MIXTURE"/>
+  <control-input axis="/controls/engines/engine[0]/reverser" control="REVERSE_THRUST"/>
+    <control-output control="REVERSE_THRUST" prop="/surface-positions/reverser-norm[0]"/>
+    <control-speed control="REVERSE_THRUST" transition-time="1.5"/>
+<actionpt x="2.7" y="6.19" z="-2.995"/>
+</jet>
+
+<!-- Left Engine Configuration (CFM56-5B) -->
+<jet x="5" y="-6.19"  z="-3.995" mass="5250" thrust="32000"  spool-time="3"
+egt="950" tsfc="0.576" n1-idle="45" n1-max="105" n2-idle="70" n2-max="108">
+  <control-input axis="/controls/engines/engine[1]/throttle-lever" control="THROTTLE"/>
+  <control-input axis="/controls/engines/engine[0]/mixture" control="MIXTURE"/>
+  <control-input axis="/controls/engines/engine[1]/reverser" control="REVERSE_THRUST"/>
+    <control-output control="REVERSE_THRUST" prop="/surface-positions/reverser-norm[1]"/>
+    <control-speed control="REVERSE_THRUST" transition-time="1.5"/>
+<actionpt x="2.7" y="-6.19" z="-2.995"/>
+</jet>
+
+<!-- Fake thrust for Pushback -->
+ <thruster x="19.28"  y="0.00" z="-5.55" vx="1" vy="0" vz="0" thrust="17000">
+ <control-input axis="/sim/model/pushback/target-speed-fps" control="THROTTLE" src0="-1" src1="1" dst0="-1" dst1="1"/>
+ </thruster>
+
+<!-- Nose Gear Configuration -->
+<gear x="14.28"  y="0.00" z="-5.55"
+      compression="0.7" spring="0.9" damp="1">
+  <control-input axis="/controls/flight/rudder" control="STEER" square="true"/>
+  <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
+  <control-output control="STEER" prop="/gear/gear[0]/steering-norm"/>
+  <control-output control="EXTEND" prop="/gear/gear[0]/position-norm"/>
+  <control-speed control="EXTEND" transition-time="7"/>
+</gear>
+
+<!-- Right Gear Configuration -->
+<gear x="0.39" y="5.6" z="-5.7" compression="0.8" spring="1.0" >
+  <control-input axis="/controls/gear/brake-right" control="BRAKE"/>
+  <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
+  <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
+  <control-output control="EXTEND" prop="/gear/gear[1]/position-norm"/>
+  <control-speed control="EXTEND" transition-time="7"/>
+</gear>
+
+<!-- Left Gear Configuration -->
+<gear x="0.39" y="-5.6" z="-5.7" compression="0.8" spring="1.0">
+  <control-input axis="/controls/gear/brake-left" control="BRAKE"/>
+  <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
+  <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
+  <control-output control="EXTEND" prop="/gear/gear[2]/position-norm"/>
+  <control-speed control="EXTEND" transition-time="7"/>
+</gear>
+
+<!-- Extra Gear Configuration for balance -->
+<gear x="-7.8" y="5.6" z="-6.22" compression="3.0" spring="1.2" >
+  <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
+  <control-output control="EXTEND" prop="/gear/gear[3]/position-norm"/>
+  <control-speed control="EXTEND" transition-time="7"/>
+</gear>
+<gear x="-7.8" y="-5.6" z="-6.22" compression="3.0" spring="1.2">
+  <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
+  <control-output control="EXTEND" prop="/gear/gear[4]/position-norm"/>
+  <control-speed control="EXTEND" transition-time="7"/>
+</gear>
+
+<!-- Fuel Tank Configuration -->
+<tank x="0" y="5" z="-1.5" jet="true" capacity="9000"/>
+<tank x="7" y="0" z="-2.5" jet="true" capacity="22900"/>
+<tank x="0" y="-5" z="-1.5" jet="true" capacity="9000"/>
+
+<!-- Crew, PAX and Payload Configuration -->
+<weight x="12.0" y="0" z="0" mass-prop="/sim/weight[2]/weight-lb"/>
+<weight x="-0.5" y="0" z="0" mass-prop="/sim/weight[0]/weight-lb"/>
+<weight x="8.5" y="0" z="0" mass-prop="/sim/weight[1]/weight-lb"/>
+
+<!-- Ballast for Balance (lightening the tail) -->
+<ballast x="-8" y="0" z="0" mass="000"/>
+
+</airplane>

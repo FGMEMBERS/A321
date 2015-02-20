@@ -1,0 +1,19 @@
+Airbus A321-211 and -231 AUTHORS :
+
+Narendran Muraleedharan (omega-1174) : YASim FDM, 3D model, Animations, Liveries
+
+Xiang Guo (Reborn) : 3D Model Director, Research, Blueprints, Liveries
+
+Hafidh Mahasin (INTEL) : Research, Engine Specs, Liveries
+
+Nicholas Koh (music) : Liveries
+
+Other Help / Permissions from :
+
+Liam Gathercole : Sounds, Airport Operations, Announcements, Autopilot and some cockpit instruments from 767-300 and A340-600
+
+Skyop : Cabin, Lights, IAE Engine and blades from A320-family
+
+Syn Adams, Justin Smithies, Karla and Isaías V. Prestes : Tyre Smoke and Contrails from 777-300(ER)
+
+Xsaint, Isaías V. Prestes : Engine Fire from 737-900ER

@@ -1,0 +1,60 @@
+A321-200 (-231) Versions
+
+A321-200 alpha -
+1.0.1 : Base model with animations and FDM
+1.0.2 : Improved FDM
+1.1.1 : Change in model
+1.2.1 : Gear animations
+1.3.1 : Texture Mapping
+1.3.2 : New liveries
+1.3.3 : Change in livery Template
+1.3.4 : Improved FDM
+1.4.1 : Airport Operations
+1.4.2 : Lighting
+1.4.3 : Sounds and Announcements - FIRST OFFICIAL RELEASE
+1.5.1 : Implematation of 3D cockpit
+1.5.2 : 3D panel Improved
+1.5.3 : Autopilot
+
+A321-211 beta - 
+1.5.1 : Implematation of 3D cockpit
+1.5.2 : 3D panel Improved
+1.5.3 : Autopilot, spoilers and Tyre-smoke
+1.6.1 : Gear Door Animations
+1.7.1 : Better lighting by skyop
+1.7.2 : 3D light cones implemented
+1.8.1 : Radar projections
+1.8.2 : Radar projections enlarged
+1.9.1 : Livery Template Changed
+1.9.2 : Light Control Dialog
+2.0.1 : Cabin Lights Introduced
+
+A321-211 / -231 early-production -
+2.1.1 : Cabin / Interior Introduced
+2.1.2 : Cabin Illumination
+2.1.3 : Tyre-smoke enhanced
+2.2.1 : 3D cockpit Improved
+2.3.1 : 3D cockpit Improved
+3.1.1 : A321-200 project split from A320-family
+3.2.1 : Winglet color for Livery 
+3.3.1 : 3D cockpit Improved
+3.4.1 : Master Caution Panel Introduced
+3.4.2 : Base Panel Introduced
+3.5.1 : Cockpit Overhead panel *FIXED*
+3.5.2 : Cockpit Holes *FIXED*
+3.6.1 : Fan Blades Improved
+3.7.1 : YASim FDM remade
+3.8.1 : YASim FDM improved
+4.1.1 : A321-231 built and engines done
+4.1.2 : Fuselage issue *FIXED*
+4.1.3 : 3D cockpit Improved 
+4.2.1 : 3D cockpit Improved again! this time it's awesome <--- LATEST RELEASE
+
+What we're working on for the NEXT RELEASE: (i.e. v4.2.2)
+ - Parking brake Control in Cockpit
+ - Modified Central Panel
+
+What we're thinking of for future releases:
+ - Openable Cabin Doors
+
+<<<<---------- theomegahangar.co.cc ---------->>>>
