@@ -71590,7 +71590,7 @@ name "MFDSwtchR1"
 loc 4.71605 -0.17773 -0.0175522
 data 12
 Cylinder.250
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/knob.png"
+texture "knob.png"
 crease 30.000000
 numvert 37
 0.0229282 0.00842738 -0.14762
@@ -71877,7 +71877,7 @@ name "Cabin"
 loc 4.67238 -0.171866 -0.0151282
 data 12
 Cylinder.250
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/knob.png"
+texture "knob.png"
 crease 30.000000
 numvert 37
 0.0237885 -0.00331706 -0.144907
@@ -72167,7 +72167,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.00967884 -0.00129962 0.256581
@@ -72188,7 +72188,7 @@ name "Flood"
 loc 4.67238 -0.171866 0.0280288
 data 12
 Cylinder.250
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/knob.png"
+texture "knob.png"
 crease 30.000000
 numvert 37
 0.0229263 0.00842738 -0.14762
@@ -72478,7 +72478,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0418062 -0.00561327 0.256581
@@ -72499,7 +72499,7 @@ name "MFDSwtchR1"
 loc 4.71562 -0.177672 0.00998178
 data 12
 Cylinder.250
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/knob.png"
+texture "knob.png"
 crease 30.000000
 numvert 37
 0.0237885 -0.00331706 -0.144907
@@ -72789,7 +72789,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.00967884 -0.00129962 0.256581
@@ -72810,7 +72810,7 @@ name "MFDSwtchR1"
 loc 4.71562 -0.177672 0.0384308
 data 12
 Cylinder.250
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/knob.png"
+texture "knob.png"
 crease 30.000000
 numvert 37
 0.0229282 0.00842738 -0.14762
@@ -73869,7 +73869,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.025033 -0.00325996 0.160969
@@ -74696,7 +74696,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.025033 -0.0032599 0.160969
@@ -75470,7 +75470,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0058136 -0.000679374 0.160969
@@ -76244,7 +76244,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.025033 -0.0032599 0.160969
@@ -77018,7 +77018,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0058136 -0.000679374 0.160969
@@ -77792,7 +77792,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.025033 -0.0032599 0.160969
@@ -78566,7 +78566,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0058136 -0.000679374 0.160969
@@ -79340,7 +79340,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.025033 -0.0032599 0.160969
@@ -80285,7 +80285,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0058136 -0.000679314 0.160969
@@ -81059,7 +81059,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.025034 -0.0032599 0.160969
@@ -81833,7 +81833,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0058136 -0.000679314 0.160969
@@ -82607,7 +82607,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.025034 -0.0032599 0.160969
@@ -83381,7 +83381,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0058136 -0.000679314 0.160969
@@ -84155,7 +84155,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.025034 -0.0032599 0.160969
@@ -84929,7 +84929,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0058136 -0.000679314 0.160969
@@ -86125,7 +86125,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0315275 -0.00413191 0.19464
@@ -86642,7 +86642,7 @@ name "MFDSwtchR1"
 loc 4.71605 -0.17773 0.308172
 data 12
 Cylinder.250
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/knob.png"
+texture "knob.png"
 crease 30.000000
 numvert 37
 0.0237885 -0.00331706 -0.144907
@@ -86929,7 +86929,7 @@ name "Cabin"
 loc 4.67238 -0.171866 0.310596
 data 12
 Cylinder.250
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/knob.png"
+texture "knob.png"
 crease 30.000000
 numvert 37
 0.0229263 0.00842738 -0.14762
@@ -87219,7 +87219,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0418062 -0.00561327 0.256581
@@ -87240,7 +87240,7 @@ name "Flood"
 loc 4.67238 -0.171866 0.353753
 data 12
 Cylinder.250
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/knob.png"
+texture "knob.png"
 crease 30.000000
 numvert 37
 0.0237885 -0.00331706 -0.144907
@@ -87530,7 +87530,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.00967884 -0.00129962 0.256581
@@ -87551,7 +87551,7 @@ name "MFDSwtchR1"
 loc 4.71562 -0.177672 0.335706
 data 12
 Cylinder.250
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/knob.png"
+texture "knob.png"
 crease 30.000000
 numvert 37
 0.0229282 0.00842738 -0.14762
@@ -87841,7 +87841,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0418062 -0.00561327 0.256581
@@ -87869,7 +87869,7 @@ name "MFDSwtchR1"
 loc 4.71562 -0.177672 0.364155
 data 12
 Cylinder.250
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/knob.png"
+texture "knob.png"
 crease 30.000000
 numvert 37
 0.0237885 -0.00331706 -0.144907
@@ -88928,7 +88928,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.00581264 -0.000679374 0.160969
@@ -89755,7 +89755,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0058136 -0.000679374 0.160969
@@ -90529,7 +90529,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.025033 -0.0032599 0.160969
@@ -91303,7 +91303,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0058136 -0.000679374 0.160969
@@ -92077,7 +92077,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.025033 -0.0032599 0.160969
@@ -92851,7 +92851,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0058136 -0.000679374 0.160969
@@ -93625,7 +93625,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.025033 -0.0032599 0.160969
@@ -94399,7 +94399,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0058136 -0.000679374 0.160969
@@ -95344,7 +95344,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.025034 -0.0032599 0.160969
@@ -96118,7 +96118,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0058136 -0.000679314 0.160969
@@ -96892,7 +96892,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.025034 -0.0032599 0.160969
@@ -97666,7 +97666,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0058136 -0.000679314 0.160969
@@ -98440,7 +98440,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.025034 -0.0032599 0.160969
@@ -99214,7 +99214,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.0058136 -0.000679314 0.160969
@@ -99988,7 +99988,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.025034 -0.0032599 0.160969
@@ -101191,7 +101191,7 @@ OBJECT poly
 name "PanelMarkings_1"
 data 9
 Plane.424
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 4
 0.00731754 -0.000881195 0.19464
@@ -102136,7 +102136,7 @@ name "GDR"
 loc 4.74735 -0.197936 -0.151218
 data 9
 Plane.007
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP.png"
+texture "MCP.png"
 crease 30.000000
 numvert 8
 -0.00834656 0.00420314 0.17215
@@ -102189,7 +102189,7 @@ name "MFDSwtchR1"
 loc 4.70599 -0.189788 0.261145
 data 12
 Cylinder.250
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/knob.png"
+texture "knob.png"
 crease 30.000000
 numvert 37
 0.0320988 -0.00786889 -0.24772
@@ -104186,7 +104186,7 @@ name "MFDSwtchR1"
 loc 4.7994 -0.200289 0.314109
 data 12
 Cylinder.250
-texture "/media/82944a99-b142-45db-b851-d7b2d7dac692/home/narendranm/Documents/OMEGA Hangar/A321-211 Edit files/MCP/knob.png"
+texture "knob.png"
 crease 30.000000
 numvert 37
 0.0414753 0.00716799 -0.30246
